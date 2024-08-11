@@ -6,24 +6,28 @@
       <a href="https://github.com/PersonableD">
         <img src="https://github.com/PersonableD.png" width="100px;" alt="PersonableD"/><br />
         <sub><b>PersonableD</b></sub>
+        <sub><b>김슬아</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Sincer1ty">
         <img src="https://github.com/Sincer1ty.png" width="100px;" alt="Sincer1ty"/><br />
         <sub><b>Sincer1ty</b></sub>
+        <sub><b>김성희</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jsonsvalue">
         <img src="https://github.com/jsonsvalue.png" width="100px;" alt="jsonsvalue"/><br />
         <sub><b>jsonsvalue</b></sub>
+        <sub><b>이재석</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/lazyArtisan">
         <img src="https://github.com/lazyArtisan.png" width="100px;" alt="lazyArtisan"/><br />
         <sub><b>lazyArtisan</b></sub>
+        <sub><b>고태환</b></sub>
       </a>
     </td>
   </tr>
