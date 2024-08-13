@@ -24,7 +24,7 @@ else:
                 stack.append(2)
             else:
                 piece = 0
-                while(stack and stack[-1] != '('):
+                while(stack[-1] != '('):
                     piece += stack.pop()
                 stack.pop()
                 stack.append(2 * piece)
@@ -34,7 +34,7 @@ else:
                 stack.append(3)
             else:
                 piece = 0
-                while(stack and stack[-1] != '['):
+                while(stack[-1] != '['):
                     piece += stack.pop()
                 stack.pop()
                 stack.append(3 * piece)
