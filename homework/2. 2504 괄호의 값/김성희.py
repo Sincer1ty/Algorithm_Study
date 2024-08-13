@@ -11,23 +11,30 @@ input = sys.stdin.readline
 string = input().strip()
 
 stack = []
-num = 0
 exp = []
+result = 0
+num = 1
 for s in string:
     if s == '(' or s == '[':
         stack.append(s)
-        exp.append('+')
+        # if exp[-1] != '+' or exp[-1] !='*':
+        if num != 1:
+            result += num
+            num = 1
+            # exp.append('+')
     else :
-        peek = stack[-1]
+        peek = stack.pop()
         if peek == '(':
             if s == ')':
+                num *= 2
                 exp.append(2)
         elif peek == '[':
             if s == ']':
+                num *= 3
                 exp.append(3)
-        
+    pre = s
 
-
+print(result)
 
 # while stack:
 #     s = stack.pop()
