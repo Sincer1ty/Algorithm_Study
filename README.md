@@ -46,9 +46,15 @@
 # 진행 상황
 
 1. ✅ (08/12) [2468 안전영역](https://www.acmicpc.net/problem/2468)  
-2. ☑️ (08/13) [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  
-3. ☑️
-4. ☑️ [13334 철로](https://www.acmicpc.net/problem/13334) 
+2. ✅ (08/13) [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  
+3. ✅ (08/14) [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
+4. ☑️ [13334 철로](https://www.acmicpc.net/problem/13334)
+5.
+6.
+7.
+8.
+
+<br>
 
 # 주제별 분류
 1주차 주제
