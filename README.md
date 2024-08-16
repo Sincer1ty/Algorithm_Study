@@ -45,16 +45,16 @@
 
 # 진행 상황
 
-1. ✅ 8.12 | [2468 안전영역](https://www.acmicpc.net/problem/2468)  
-2. ✅ 8.13 | [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  
-3. ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
-4. ✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)
-5. ✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)
-6. ☑️ 8.17 | 복습 시간
-7. ☑️ 8.19 |
-8. ☑️ 8.20 |
-9. ☑️ 8.21 |
-10. ☑️ 8.22 |
+✅ 8.12 | [2468 안전영역](https://www.acmicpc.net/problem/2468)  
+✅ 8.13 | [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  
+✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
+✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)
+✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)
+☑️ 8.17 | 복습 시간
+☑️ 8.19 |
+☑️ 8.20 |
+☑️ 8.21 |
+☑️ 8.22 |
 
 <br>
 
