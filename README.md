@@ -30,8 +30,16 @@
         <sub><b>고태환</b></sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/jeongyuje0ngyujeong">
+        <img src="https://github.com/jeongyuje0ngyujeong.png" width="100px;" alt="jeongyuje0ngyujeong"/><br />
+        <sub><b>jeongyuje0ngyujeong</b></sub><br/>
+        <sub><b>정유정</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
+
 
 <br>
 
@@ -50,8 +58,8 @@
 - ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 - ✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)
 - ✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)
-- ☑️ 8.17 | 복습 시간
-- ☑️ 8.19 |
+- ✅ 8.17 | 복습 시간
+- ☑️ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)
 - ☑️ 8.20 |
 - ☑️ 8.21 |
 - ☑️ 8.22 |
