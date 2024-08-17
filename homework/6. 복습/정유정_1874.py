@@ -2,20 +2,32 @@ import sys
 
 size = int(sys.stdin.readline())
 stack = []
-nums = ""
-result = ""
+nums = []
+result = []
 ans = ""
 
 for i in range(size):
-    nums += sys.stdin.readline() + ""
+    nums.append(int(sys.stdin.readline()))
 
+idx = 0
 for i in range(1, size + 1):
-    if not stack or stack[-1] > i:
+    if i > nums[idx]:
+        while stack and nums[idx] == stack[-1]:
+            result.append(stack.pop())
+            idx += 1
+            ans += "-\n"
+
         stack.append(i)
         ans += "+\n"
+
     else:
-        result += str(stack.pop()) + ""
-        ans += "-\n"
+        stack.append(i)
+        ans += "+\n"
+
+while stack:
+    result.append(stack.pop())
+    idx += 1
+    ans += "-\n"
 
 if nums == result:
     sys.stdout.write(ans)
