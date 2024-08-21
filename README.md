@@ -61,7 +61,7 @@
 - ✅ 8.17 | 복습 시간
 - ✅ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)
 - ✅ 8.20 | [2110 공유기 설치](https://www.acmicpc.net/problem/2110)
-- ☑️ 8.21 |
+- ☑️ 8.21 | [2812 크게 만들기(https://www.acmicpc.net/problem/2812)
 - ☑️ 8.22 |
 
 <br>
