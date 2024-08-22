@@ -58,7 +58,7 @@
 - ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 - ✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)
 - ✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)
-- ✅ 8.17 | 복습 시간
+- ✅ 8.17 | Review Session
 - ✅ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)
 - ✅ 8.20 | [3190 뱀](https://www.acmicpc.net/problem/3190)
 - ✅ 8.21 | [2110 공유기 설치](https://www.acmicpc.net/problem/2110)
