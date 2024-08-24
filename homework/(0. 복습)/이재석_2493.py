@@ -10,7 +10,6 @@ for i in range(n):
     if stack and stack[-1][0] > bld_list[i]:
         max_bld = stack.pop()
         print(max_bld[1]+1)
-        print(stack[-1][1]+1)
 
     else:
         print(0)
