@@ -62,7 +62,13 @@
 - ✅ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)
 - ✅ 8.20 | [3190 뱀](https://www.acmicpc.net/problem/3190)
 - ✅ 8.21 | [2110 공유기 설치](https://www.acmicpc.net/problem/2110)
-- ☑️ 8.22 | [2812 크게 만들기](https://www.acmicpc.net/problem/2812)
+- ✅ 8.22 | [2812 크게 만들기](https://www.acmicpc.net/problem/2812)
+- ✅ 8.23 | [2869 달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)
+- ✅ 8.24 | Review session
+- ☑️ 8.26 | [이분 그래프](https://www.acmicpc.net/problem/1707)
+- ☑️ 8.28 | 
+- ☑️ 8.30 | 
+- ☑️ 8.31 | 
 
 <br>
 
@@ -78,6 +84,17 @@
     <li>5. 분할 정복</li>
     <li>6. 스택, 큐</li>
     <li>7. 우선순위 큐</li>
+  </ul>
+</details>
+
+<details>
+  <summary>2주차 주제</summary>
+  <ul>
+    <li>1. DFS, BFS</li>
+    <li>2. 위상 정렬</li>
+    <li>3. 최소 신장 트리</li>
+    <li>4. 다익스트라, 플로이드 와샬</li>
+    <li>5. Trie</li>
   </ul>
 </details>
 
