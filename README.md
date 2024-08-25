@@ -54,22 +54,22 @@
 # 진행 상황
 <details>
   <summary>8월</summary>
-◾ ✅ 8.12 | [2468 안전영역](https://www.acmicpc.net/problem/2468)<br>
-◾ ✅ 8.13 | [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  <br>
-- ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)<br>
-- ✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)<br>
-- ✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)<br>
-- ✅ 8.17 | Review session<br>
-- ✅ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)<br>
-- ✅ 8.20 | [3190 뱀](https://www.acmicpc.net/problem/3190)<br>
-- ✅ 8.21 | [2110 공유기 설치](https://www.acmicpc.net/problem/2110)<br>
-- ✅ 8.22 | [2812 크게 만들기](https://www.acmicpc.net/problem/2812)<br>
-- ✅ 8.23 | [2869 달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)<br>
-- ✅ 8.24 | Review session<br>
-- ☑️ 8.26 | [이분 그래프](https://www.acmicpc.net/problem/1707)<br>
-- ☑️ 8.28 | <br>
-- ☑️ 8.30 | <br>
-- ☑️ 8.31 | <br>
+• ✅ 8.12 | [2468 안전영역](https://www.acmicpc.net/problem/2468)<br>
+• ✅ 8.13 | [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  <br>
+• ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)<br>
+• ✅ 8.15 | [13334 철로](https://www.acmicpc.net/problem/13334)<br>
+• ✅ 8.16 | [17298 오큰수](https://www.acmicpc.net/problem/17298)<br>
+• ✅ 8.17 | Review session<br>
+• ✅ 8.19 | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)<br>
+• ✅ 8.20 | [3190 뱀](https://www.acmicpc.net/problem/3190)<br>
+• ✅ 8.21 | [2110 공유기 설치](https://www.acmicpc.net/problem/2110)<br>
+• ✅ 8.22 | [2812 크게 만들기](https://www.acmicpc.net/problem/2812)<br>
+• ✅ 8.23 | [2869 달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)<br>
+• ✅ 8.24 | Review session<br>
+• ☑️ 8.26 | [이분 그래프](https://www.acmicpc.net/problem/1707)<br>
+• ☑️ 8.28 | <br>
+• ☑️ 8.30 | <br>
+• ☑️ 8.31 | <br>
 </details>
 
 <br>
