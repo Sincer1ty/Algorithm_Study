@@ -110,7 +110,7 @@
   </tr>
   <tr>
     <td>8.26</td>
-    <td><a href="https://www.acmicpc.net/problem/1707">이분 그래프</a></td>
+    <td><a href="https://www.acmicpc.net/problem/1707">1707 이분 그래프</a></td>
   </tr>
   <tr>
     <td>8.28</td>
