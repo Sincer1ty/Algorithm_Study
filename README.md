@@ -125,24 +125,6 @@
     <td></td>
   </tr>
 </table>
-
-  
-• 8.12 | <a href="https://www.acmicpc.net/problem/2468">2468 안전영역</a><br>
-• 8.13 | <a href="https://www.acmicpc.net/problem/2504">2504 괄호의 값</a><br>
-• 8.14 | <a href="https://www.acmicpc.net/problem/1655">1655 가운데를 말해요</a><br>
-• 8.15 | <a href="https://www.acmicpc.net/problem/13334">13334 철로</a><br>
-• 8.16 | <a href="https://www.acmicpc.net/problem/17298">17298 오큰수</a><br>
-• 8.17 | Review session<br>
-• 8.19 | <a href="https://www.acmicpc.net/problem/2805">2805 나무 자르기</a><br>
-• 8.20 | <a href="https://www.acmicpc.net/problem/3190">3190 뱀</a><br>
-• 8.21 | <a href="https://www.acmicpc.net/problem/2110">2110 공유기 설치</a><br>
-• 8.22 | <a href="https://www.acmicpc.net/problem/2812">2812 크게 만들기</a><br>
-• 8.23 | <a href="https://www.acmicpc.net/problem/2869">2869 달팽이는 올라가고 싶다</a><br>
-• 8.24 | Review session<br>
-• 8.26 | <a href="https://www.acmicpc.net/problem/1707">이분 그래프</a><br>
-• 8.28 | <br>
-• 8.30 | <br>
-• 8.31 | <br>
 </details>
 
 <br>
