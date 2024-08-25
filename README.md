@@ -52,7 +52,8 @@
 <br>
 
 # 진행 상황
-
+<details>
+  <summary>8월</summary>
 - ✅ 8.12 | [2468 안전영역](https://www.acmicpc.net/problem/2468)  
 - ✅ 8.13 | [2504 괄호의 값](https://www.acmicpc.net/problem/2504)  
 - ✅ 8.14 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
@@ -69,6 +70,7 @@
 - ☑️ 8.28 | 
 - ☑️ 8.30 | 
 - ☑️ 8.31 | 
+</details>
 
 <br>
 
