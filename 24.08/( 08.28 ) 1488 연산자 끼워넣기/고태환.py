@@ -8,16 +8,16 @@ def backtrack(num, idx, p, m, mt, dv):
   
     next_num = arr[idx]
     if p != 0:
-        backtrack(num + next_num, idx, p - 1, m, mt, dv)
+        backtrack(num+next_num, idx, p-1, m, mt, dv)
     if m != 0:
-        backtrack(num - next_num, idx, p, m - 1, mt, dv)
+        backtrack(num-next_num, idx, p, m-1, mt, dv)
     if mt != 0:
-        backtrack(num * next_num, idx, p, m, mt - 1, dv)
+        backtrack(num*next_num, idx, p, m, mt-1, dv)
     if dv != 0:
         if num < 0:
-            backtrack(-(abs(num) // next_num), idx, p, m, mt, dv - 1)
+            backtrack(-(abs(num)//next_num), idx, p, m, mt, dv-1)
         else:
-            backtrack(num // next_num, idx, p, m, mt, dv - 1)
+            backtrack(num//next_num, idx, p, m, mt, dv-1)
         
 N = int(input())
 arr = list(map(int, input().split()))
