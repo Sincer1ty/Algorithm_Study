@@ -16,18 +16,19 @@ def dfs(num: int, depth: int):
         return
 
     for i in range(4):
-        operators[i] -= 1
+        if operators[i] != 0:
+            operators[i] -= 1
 
-        if i == 0:
-            dfs(num + nums[depth], depth + 1)
-        elif i == 1:
-            dfs(num - nums[depth], depth + 1)
-        elif i == 2:
-            dfs(num * nums[depth], depth + 1)
-        else:
-            dfs(int(num // nums[depth]), depth + 1)
+            if i == 0 :
+                dfs(num + nums[depth], depth + 1)
+            elif i == 1:
+                dfs(num - nums[depth], depth + 1)
+            elif i == 2:
+                dfs(num * nums[depth], depth + 1)
+            else:
+                dfs(int(num // nums[depth]), depth + 1)
 
-        operators[i] += 1
+            operators[i] += 1
 
 
 dfs(nums[0], 1)
