@@ -118,6 +118,7 @@
   </tr>
   <tr>
     <td>8.30</td>
+    <td><a href="https://www.acmicpc.net/problem/3055">3055 탈출</a></td>
     <td></td>
   </tr>
   <tr>
