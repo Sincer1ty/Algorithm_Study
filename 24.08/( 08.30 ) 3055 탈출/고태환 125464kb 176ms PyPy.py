@@ -2,6 +2,8 @@
 # import sys
 # sys.setrecursionlimit(10**4)
 
+# 복습 큐 2개 써서 해보기
+
 R, C = map(int, input().split())
 
 
