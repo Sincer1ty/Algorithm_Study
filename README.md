@@ -114,7 +114,7 @@
   </tr>
   <tr>
     <td>8.28</td>
-    <td></td>
+    <td><a href="https://www.acmicpc.net/problem/14888">14888 연산자 끼워넣기</a></td>
   </tr>
   <tr>
     <td>8.30</td>
@@ -123,8 +123,8 @@
   </tr>
   <tr>
     <td>8.31</td>
-    <td></td>
-  </tr>
+    <td>Review session</td>
+  </tr> 
 </table>
 </details>
 
