@@ -19,6 +19,7 @@ for _ in range(R):
             stone.append((_, i))
     map.append(row)
 
+# 우, 좌, 상, 하
 dx = [0, 0, -1, 1]
 dy = [1, -1, 0, 0]
 
@@ -29,31 +30,53 @@ dy = [1, -1, 0, 0]
 
 import queue
 
-q = queue.Queue()
-
-def bfs(x,y):
-
-    q.put([x,y])
-    
-    while q.qsize():
-        pos = q.get()
+def flood():
+    for _ in range(len(water)):
+        pos = water.pop(0)
         x = pos[0]
         y = pos[1]
 
         for i in range(4):
-            if map[x+dx[i]][y+dy[i]] == 1:
-                map[x+dx[i]][y+dy[i]] += map[x][y]
-                q.put([x+dx[i], y+dy[i]])
-        map[1][1] = 0
+            if x+dx[i] == -1 or y+dy[i] == -1 or x+dx[i] == R or y+dy[i] == C :
+                continue
+            if map[x+dx[i]][y+dy[i]] == '.' or map[x+dx[i]][y+dy[i]] == 'S':
+                map[x+dx[i]][y+dy[i]] = '*'
+                water.append([x+dx[i], y+dy[i]])
+    
+q = queue.Queue()
+minute = 0
+isDest = 0
+def bfs(x,y):
+    global minute, isDest
+
+    q.put([x,y])
+    
+    while q.qsize():
+        flood()
+        
+        for _ in range(q.qsize()):
+            pos = q.get()
+            x = pos[0]
+            y = pos[1]
+
+            # 우, 좌, 상, 하
+            for i in range(4):
+                if x+dx[i] == -1 or y+dy[i] == -1 or x+dx[i] == R or y+dy[i] == C :
+                    continue
+                if map[x+dx[i]][y+dy[i]] == '.':
+                    map[x+dx[i]][y+dy[i]] = 'S'
+                    q.put([x+dx[i], y+dy[i]])
+                elif map[x+dx[i]][y+dy[i]] == 'D':
+                    isDest = 1
+                    break
+            if isDest == 1:
+                break
+        minute += 1
+        if isDest == 1:
+            break
 
 bfs(start[0], start[1])
-
-
-for i in range(R, -1, -1): # 행
-    for j in range(C, -1, -1): # 열
-
-        for k in range(4):
-            x = i+k
-            y = j+k
-            map[x][y]
-            pass
+if isDest == 0:
+    print('KAKTUS')
+else:
+    print(minute)
