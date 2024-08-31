@@ -5,18 +5,13 @@ R, C = map(int, input().split())
 
 map = []
 water = []
-stone = []
 for _ in range(R):
     row = list(input().strip())
     for i, r in enumerate(row):
-        if r == 'D':
-            dest = (_, i)
-        elif r == 'S':
+        if r == 'S':
             start = (_, i)
         elif r == '*':
             water.append((_, i))
-        elif r == 'X':
-            stone.append((_, i))
     map.append(row)
 
 # 우, 좌, 상, 하
