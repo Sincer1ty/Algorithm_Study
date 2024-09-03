@@ -128,6 +128,18 @@
 </table>
 </details>
 
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Problem</th>
+  </tr>
+  <tr>
+    <td>9.4</td>
+    <td><a href="https://www.acmicpc.net/problem/7569">7569 토마토</a></td>
+  </tr>
+</table>
+</details>
+
 <br>
 
 # 주제별 분류
