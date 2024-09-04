@@ -37,7 +37,6 @@ for i in range(N):
             cnt2 += 1
             while stack:
                 x, y = stack.pop()
-                # a = L[x][y] 여기에 넣었더니 -1이 무한반복. 이미 -1로 변한 놈이 스택에서 나올 수 있음.
                 L2[x][y] = -1
                 for k in range(4):
                     if  (0<= x+dx[k] < N) and (0<= y+dy[k] < N):
