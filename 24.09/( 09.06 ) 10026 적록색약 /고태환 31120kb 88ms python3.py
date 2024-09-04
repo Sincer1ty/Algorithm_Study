@@ -46,3 +46,4 @@ for i in range(N):
 print(cnt, cnt2)
 
 # 어려움 : 적록 색약인 놈이 보는 것도 추가해야 함
+# visited 배열 추가했으면 L2 새로 만들 필요 없었음
