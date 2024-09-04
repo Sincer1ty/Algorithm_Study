@@ -45,9 +45,27 @@
 
 # 진행 방법
 
-1. 숙제를 풀어온다
-2. 13시 30분에 서로의 코드를 리뷰한다
-3. 다음 문제를 정한다
+```python
+import time
+
+N = int(input())
+member = [input() for _ in range(N)]
+level = ['hasu' for _ in range(N)]
+homework = [False]*N
+problem = None
+all_gosu = False
+
+while not all_gosu:
+    print("숙제 풀기")
+
+    if (time.localtime().tm_hour == 13) and (time.localtime().tm_min == 30):
+        print("풀이 발표 시간")
+        homework = [False]*N
+        problem = input("다음 문제는: ")
+
+    if 'hasu' not in level:
+        all_gosu = True
+```
 
 <br>
 
@@ -139,6 +157,10 @@
     <td>9.4</td>
     <td><a href="https://www.acmicpc.net/problem/7569">7569 토마토</a></td>
   </tr>
+  <tr>
+    <td>9.6</td>
+    <td><a href="https://www.acmicpc.net/problem/10026">10026 적록색약</a></td>
+  </tr>
 </table>
 </details>
 
@@ -147,7 +169,7 @@
 # 주제별 분류
 
 <details>
-  <summary>1주차 주제</summary>
+  <summary>정글 compass 1주차 주제</summary>
   <ul>
     <li>1. 단순 구현</li>
     <li>2. 재귀함수</li>
@@ -160,7 +182,7 @@
 </details>
 
 <details>
-  <summary>2주차 주제</summary>
+  <summary>정글 compass 2주차 주제</summary>
   <ul>
     <li>1. DFS, BFS</li>
     <li>2. 위상 정렬</li>
