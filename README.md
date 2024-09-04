@@ -45,9 +45,23 @@
 
 # 진행 방법
 
-1. 숙제를 풀어온다
-2. 13시 30분에 서로의 코드를 리뷰한다
-3. 다음 문제를 정한다
+```python
+import time
+N = int(input())
+member = [input() for _ in range(N)]
+level = ['hasu' for _ in range(N)]
+homework = [False]*N
+problem = NULL
+all_gosu = False
+while(all_gosu):
+  print("숙제 풀기")
+  if (time.localtime().tm_hour == 13) and (time.localtime().tm_min == 30):
+    print("풀이 발표 시간")
+    homework = [False]*N
+    problem = input() # 다음 문제 정하기
+  if not ('hasu' in level):
+    all_gosu = True
+```
 
 <br>
 
@@ -138,6 +152,10 @@
   <tr>
     <td>9.4</td>
     <td><a href="https://www.acmicpc.net/problem/7569">7569 토마토</a></td>
+  </tr>
+  <tr>
+    <td>9.6</td>
+    <td><a href="https://www.acmicpc.net/problem/10026">10026 적록색약</a></td>
   </tr>
 </table>
 </details>
