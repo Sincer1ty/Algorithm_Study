@@ -51,8 +51,8 @@ import time
 N = int(input())
 member = [input() for _ in range(N)]
 level = ['hasu' for _ in range(N)]
-homework = [False]*N
-problem = None
+solved = [False]*N
+homework = None
 all_gosu = False
 
 while not all_gosu:
@@ -60,8 +60,8 @@ while not all_gosu:
 
     if (time.localtime().tm_hour == 13) and (time.localtime().tm_min == 30):
         print("풀이 발표 시간")
-        homework = [False]*N
-        problem = input("다음 문제는: ")
+        solved = [False]*N
+        homework = input("다음 문제는: ")
 
     if 'hasu' not in level:
         all_gosu = True
