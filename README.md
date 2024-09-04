@@ -52,7 +52,7 @@ N = int(input())
 member = [input() for _ in range(N)]
 level = ['hasu' for _ in range(N)]
 homework = [False]*N
-problem = NULL
+problem = input()
 all_gosu = False
 
 while(all_gosu):
