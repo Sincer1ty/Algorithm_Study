@@ -169,7 +169,7 @@ while not all_gosu:
 # 주제별 분류
 
 <details>
-  <summary>1주차 주제</summary>
+  <summary>정글 compass 1주차 주제</summary>
   <ul>
     <li>1. 단순 구현</li>
     <li>2. 재귀함수</li>
@@ -182,7 +182,7 @@ while not all_gosu:
 </details>
 
 <details>
-  <summary>2주차 주제</summary>
+  <summary>정글 compass 2주차 주제</summary>
   <ul>
     <li>1. DFS, BFS</li>
     <li>2. 위상 정렬</li>
