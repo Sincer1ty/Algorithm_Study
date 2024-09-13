@@ -162,16 +162,9 @@ while not all_gosu:
     <td><a href="https://www.acmicpc.net/problem/10026">10026 적록색약</a></td>
   </tr>
   <tr>
-    <td>9.9</td>
-    <td><a href="https://www.acmicpc.net/problem/21606">21606 아침 산책</a></td>
-  </tr>
-  <tr>
-    <td>9.x</td>
-    <td><a href="">xxxxx oooo</a></td>
-  </tr>
-  <tr>
-    <td>9.x - 추석 특별 숙제</td>
-    <td><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a></td>
+    <td>9.20 추석 특별 숙제<br>(9.13 - 9.19)</td>
+    <td><a href="https://www.acmicpc.net/problem/21606">21606 아침 산책</a><<br>
+      <a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a></td>
   </tr>
 </table>
 </details>
