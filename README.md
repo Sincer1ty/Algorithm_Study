@@ -163,7 +163,7 @@ while not all_gosu:
   </tr>
   <tr>
     <td>9.20 추석 특별 숙제<br>(9.13 - 9.19)</td>
-    <td><a href="https://www.acmicpc.net/problem/21606">21606 아침 산책</a><<br>
+    <td><a href="https://www.acmicpc.net/problem/21606">21606 아침 산책</a><br>
       <a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a></td>
   </tr>
 </table>
