@@ -28,8 +28,7 @@ for i in basic:
 # 부품들 조립해서 만들기
 while queue:
     Y = queue.popleft()
-    for part in bp[Y]: # Y가 쓰이는 중간 부품들에 대해
-        X,K = part
+    for X,K in bp[Y]: # Y가 쓰이는 중간 부품들에 대해
         for i in basic:
             res[X][i]+=res[Y][i]*K
         indegree[X]-=1
