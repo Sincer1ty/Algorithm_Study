@@ -162,10 +162,13 @@ while not all_gosu:
     <td><a href="https://www.acmicpc.net/problem/10026">10026 적록색약</a></td>
   </tr>
   <tr>
-    <td>9.20<br>추석 특별 숙제<br>(9.13 - 9.19)</td>
+    <td>9.23<br>추석 특별 숙제<br>(9.13 - 9.22)</td>
     <td><a href="https://www.acmicpc.net/problem/21606">21606 아침 산책</a><br>
       <a href="https://www.acmicpc.net/problem/1948">1948 임계경로</a><br>
-      <a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a><br><a href="">xxxxx oooo</a></td>
+      <a href="https://www.acmicpc.net/problem/2637">2637 장난감 조립</a><br>
+      <a href="https://www.acmicpc.net/problem/2573">2573 빙산</a><br>
+      <a href="https://www.acmicpc.net/problem/2667">2667 단지번호 붙이기</a><br>
+      <a href="https://www.acmicpc.net/problem/31575">31575 도시와 비트코인</a><br>
   </tr>
 </table>
 </details>
