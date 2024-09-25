@@ -205,3 +205,13 @@ while not all_gosu:
   </ul>
 </details>
 
+<details>
+  <summary>정글 compass 3주차 주제</summary>
+  <ul>
+    <li>1. 다이나믹 프로그래밍</li>
+    <li>2. 그리디 알고리즘</li>
+    <li>3. LCS (Longest Common Subsequence)</li>
+    <li>4. 배낭 문제 (Knapsack Problem)</li>
+  </ul>
+</details>
+
