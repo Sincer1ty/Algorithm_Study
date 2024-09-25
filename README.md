@@ -183,6 +183,7 @@ while not all_gosu:
 
 <details>
   <summary>정글 compass 1주차 주제</summary>
+  <br>
   <ul>
     <li>1. 단순 구현</li>
     <li>2. 재귀함수</li>
@@ -196,6 +197,7 @@ while not all_gosu:
 
 <details>
   <summary>정글 compass 2주차 주제</summary>
+  <br>
   <ul>
     <li>1. DFS, BFS</li>
     <li>2. 위상 정렬</li>
@@ -207,6 +209,7 @@ while not all_gosu:
 
 <details>
   <summary>정글 compass 3주차 주제</summary>
+  <br>
   <ul>
     <li>1. 다이나믹 프로그래밍</li>
     <li>2. 그리디 알고리즘</li>
