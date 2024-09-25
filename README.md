@@ -170,6 +170,10 @@ while not all_gosu:
       <a href="https://www.acmicpc.net/problem/2667">2667 단지번호 붙이기</a><br>
       <a href="https://www.acmicpc.net/problem/31575">31575 도시와 비트코인</a><br>
   </tr>
+  <tr>
+    <td>9.26</td>
+    <td><a href="https://www.acmicpc.net/problem/1912">1912 연속합</a></td>
+  </tr>
 </table>
 </details>
 
