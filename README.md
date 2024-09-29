@@ -174,6 +174,28 @@ while not all_gosu:
     <td>9.26</td>
     <td><a href="https://www.acmicpc.net/problem/1912">1912 연속합</a></td>
   </tr>
+  <tr>
+    <td>9.28</td>
+    <td><a href="https://www.acmicpc.net/problem/11049">11049 행렬 곱셈 순서</a></td>
+  </tr>
+  <tr>
+    <td>9.30</td>
+    <td><a href="https://www.acmicpc.net/problem/1463">1463 1로 만들기</a></td>
+  </tr>
+</table>
+</details>
+
+<details>
+  <summary>10월</summary>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Problem</th>
+  </tr>
+  <tr>
+    <td>10.</td>
+    <td><a href="https://www.acmicpc.net/problem/7569">7569 토마토</a></td>
+  </tr>
 </table>
 </details>
 
