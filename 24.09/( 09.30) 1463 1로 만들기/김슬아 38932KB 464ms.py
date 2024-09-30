@@ -1,7 +1,7 @@
 # 내가 처음에 푼 코드
 import sys
-N=int(input())
 input= sys.stdin.readline
+N=int(input())
 dp=[float("inf")]*(N+1)
 for i in range(1,N+1):
     if i == 1 : 
@@ -18,8 +18,8 @@ for i in range(1,N+1):
 print(dp[N])
 # 클로드가 내꺼 최적화 해 준 코드
 import sys
-N=int(input())
 input= sys.stdin.readline
+N=int(input())
 dp=[0]*(N+1)
 for i in range(1,N+1):
     if i == 1 : 
@@ -36,8 +36,8 @@ for i in range(1,N+1):
 print(dp[N])
 # 클로드가 최적화 해준 코드인데 내꺼보다 더 느림
 import sys
-N=int(input())
 input= sys.stdin.readline
+N=int(input())
 dp=[0]*(N+1)
 for i in range(2,N+1):
     dp[i] = dp[i-1]+1
