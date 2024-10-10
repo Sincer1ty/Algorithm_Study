@@ -1,53 +1,35 @@
-# m번 사건에서 n번 사건으로 이동하는 거리
-def calc(m,n):
-    ret= abs(li[m][0] - li[n][0])+abs(li[m][1] - li[n][1])
+import sys
+input = sys.stdin.readline
 
-    return ret
+def DFS(p1,p2):
+  next = max(p1,p2)+1
+  if next == W+2:
+    return
+  if not DP[next][p2]:
+    DFS(next,p2)
+  if not DP[p1][next]:
+    DFS(p1,next)  
+  x1,x2 = DP[next][p2]+graph[p1][next],DP[p1][next]+graph[p2][next]
+  if x1<x2:
+    DP[p1][p2],path[p1][p2] = x1,1
+  else:
+    DP[p1][p2],path[p1][p2] = x2,2
 
-# 두 경찰차가 각각 최근 m,n번째 사건을 해결했을 때 남은 사건의 이동거리의 최솟값
-def solve(m,n):
-    ret=0
-    
-    # 다음 사건
-    next = max(m,n)+1
-    
-    # 다음 사건이없음
-    if next == W+2:
-        return 0
-    
-    if dp[m][n]!=-1:
-        return dp[m][n]
-    
-    # 해당 사건을 첫 번째 or 두번째 경찰차가 해결
-    calc1 = solve(next,n)+calc(m,next)
-    calc2 = solve(m,next)+calc(n,next)
-    if calc1 < calc2:
-        dp_trace[m][n]=1
-        dp[m][n]=calc1
-    else :
-        dp_trace[m][n]=2
-        dp[m][n]=calc2
-    ret = dp[m][n]
-    
-    return ret
+N,W = int(input()),int(input())
 
-N=int(input())
-W =int(input())
-li = [[1,1],[N,N]]
-for _ in range(W):
-    li.append(list(map(int,input().split())))
-    
+case = [[1,1],[N,N]]+[[*map(int,input().split())] for i in range(W)]
+graph = [[0]*(W+2) for i in range(W+2)]
+for i in range(W+1):
+  for j in range(i+1,W+2):
+    graph[i][j] = abs(case[i][0]-case[j][0])+abs(case[i][1]-case[j][1])
 
-dp = [[-1]*1002 for _ in range(1002)]
-dp_trace =[[-1]*1002 for _ in range(1002)]
-
-print(solve(0,1))
-
-## dp 역추적
-m,n = 0,1
-for i in range(2,W+2):
-    print(dp_trace[m][n])
-    if dp_trace[m][n] ==1 :
-        m=i
-    else :
-        n=i
+DP,path = [[0]*(W+2) for i in range(W+2)],[[0]*(W+2) for i in range(W+2)]
+DFS(0,1)
+print(DP[0][1])
+p1,p2 = 0,1
+while max(p1,p2)<W+1:
+  print(path[p1][p2])
+  if path[p1][p2] == 1:
+    p1 = max(p1,p2)+1
+  else:
+    p2 = max(p1,p2)+1
