@@ -26,9 +26,12 @@ def min_d(a,b):
         return dp[a][b]    
     a_cost = min_d(next,b)+distance(a,next)
     b_cost = min_d(a,next)+distance(b,next)
-    dp[a][b] = min(a_cost,b_cost)
-    if a_cost < b_cost: course[a][b] = 1
-    else: course[a][b] = 2
+    if a_cost < b_cost: 
+        course[a][b] = 1
+        dp[a][b] = a_cost
+    else: 
+        course[a][b] = 2
+        dp[a][b] = b_cost
     return dp[a][b]
 
 min_d(0,1) # 첫번째 경찰차는 1,1, 두번째 경찰차는 N,N에서 시작
