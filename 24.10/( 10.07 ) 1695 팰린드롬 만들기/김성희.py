@@ -30,4 +30,10 @@ def check(pl, pr):
     check(pl, pr-1)
 
 check(0, N-1)
-print(dp)
+
+# count = 0
+# for d in dp:
+#     for i in d:
+#         if i == 1:
+#             count+=1
+# print(count)
