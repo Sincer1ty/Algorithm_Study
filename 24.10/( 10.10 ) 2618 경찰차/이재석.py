@@ -27,7 +27,7 @@ def solve(m,n):
 
     next = max(m,n)+1
 
-    if next == (N+1) +1 :
+    if next > case+1 :
         return 0
     
     if dp[m][n] != -1:
