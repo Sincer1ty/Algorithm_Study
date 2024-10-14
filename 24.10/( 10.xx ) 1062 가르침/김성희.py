@@ -14,16 +14,22 @@ letter = {'a', 'n', 't', 'i', 'c'}
 # anta ~ tica
 # antic 5개 필수
 K-=5
-if K > 0:
-	print(min(words, key=len))
-	pass
-elif K == 0:
-	# K개로만 이루어진 단어 있는지 찾고
-	# 없으면 0
-	count = 0
-	for w in words:
-		if len(w - letter) == 0:
-			count+=1
-	print(count)
-else:
+if K < 0:
 	print(0)
+# elif K == 0:
+while K > 0:
+	w = min(words, key=len)
+	words.remove(w)
+	w = w - letter
+	for i in w:
+		letter.add(i)
+		K -= 1
+	# print(letter)
+
+# K개로만 이루어진 단어 있는지 찾고
+# 없으면 0
+count = 0
+for w in words:
+	if len(w - letter) == 0:
+		count+=1
+print(count)
