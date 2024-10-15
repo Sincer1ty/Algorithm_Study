@@ -2,51 +2,6 @@
 import sys
 read = sys.stdin.readline
 
-n,k = map(int, read().strip().split())
-
-tot_list = []
-unique_char = set({'a','n','t','i','c'})
-
-for i in range(n):
-    alph_list = list(read().strip())
-    tot_list.append(alph_list)
-
-    alph_set = set(alph_list)
-    
-    # count+=1
-    # print(count)
-    
-    if len(unique_char) < k:
-        unique_char.update(alph_set)
-
-    # # if len(unique_char) > k:
-    # #     break
-    # print(len(unique_char))
-    
-    # # save_unique_char = unique_char.copy()
-
-# print(unique_char)
-
-count=0
-for i in range(n):
-    word = set(tot_list[i][4:-4])
-
-    if word.issubset(unique_char):
-        count+=1
-
-print(count)
-
-# alph_list = list(map(str,read().strip().split()))
-
-# print(unique_char)
-# print(len(unique_char))
-
---------------------------------------------------------------------------------------------------------------
-
-# K개까지의 단어를 가르칠 때, N개의 단어 중 몇 개를 읽을 수 있는가? 
-import sys
-read = sys.stdin.readline
-
 n, k = map(int, read().split())
 
 if k<5 :
