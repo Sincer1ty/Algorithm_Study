@@ -1,0 +1,7 @@
+N= int(input())
+n=2
+while N!=1:
+    while N%n==0:
+      N/=n
+      print(n)
+    n+=1
